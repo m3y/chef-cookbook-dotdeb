@@ -1,13 +1,13 @@
 #
 # Cookbook Name:: dotdeb
-# Recipe:: php
+# Recipe:: wheezy_php
 #
 # Copyright 2013, m3y
 #
 # All rights reserved - Do Not Redistribute
 #
 
-script 'dotdeb' do
+script 'dotdeb_wheezy_php' do
     interpreter "bash"
     user "root"
     cwd "/tmp"

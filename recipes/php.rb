@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-script 'dotdeb' do
+script 'dotdeb_php' do
     interpreter "bash"
     user "root"
     cwd "/tmp"
